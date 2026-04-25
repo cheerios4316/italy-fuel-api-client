@@ -1,6 +1,6 @@
 # italy-fuel-api-client
 
-A lightweight client to interact with the official Osserva Prezzi fuel API.
+A lightweight client to interact with the official Osservatorio Prezzi fuel API.
 
 ## Development
 
