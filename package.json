@@ -1,0 +1,40 @@
+{
+  "name": "italy-fuel-api-client",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "A lightweight client to interact with the official Osserva Prezzi fuel API.",
+  "author": "Cheerios4316 <cheerios4136@proton.me>",
+  "homepage": "https://github.com/cheerios4316/italy-fuel-api-client#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheerios4316/italy-fuel-api-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cheerios4316/italy-fuel-api-client/issues"
+  },
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "types": "./dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "release": "bumpp",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@typescript/native-preview": "7.0.0-dev.20260328.1",
+    "bumpp": "^11.0.1",
+    "ts-node": "^10.9.2",
+    "tsdown": "^0.21.7",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.2"
+  }
+}
