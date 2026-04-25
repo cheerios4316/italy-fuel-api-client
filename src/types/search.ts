@@ -47,4 +47,5 @@ export {
   type ISearchAreaPayload as SearchAreaPayload,
   type ILocationResult as LocationResult,
   type ISearchResult as SearchResult,
+  type IFuelResult as FuelResult,
 };
