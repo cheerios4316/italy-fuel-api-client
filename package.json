@@ -1,7 +1,7 @@
 {
   "name": "italy-fuel-api-client",
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A lightweight client to interact with the official Osservatorio Prezzi fuel API.",
   "author": "Cheerios4316 <cheerios4136@proton.me>",
   "homepage": "https://github.com/cheerios4316/italy-fuel-api-client#readme",
